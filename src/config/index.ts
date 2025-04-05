@@ -111,7 +111,7 @@ export const SITE_CONTENT: SiteContent = {
 
     Feel free to explore my work, and don't hesitate to reach out if you'd like to collaborate 🤝.
   `,
-    image: "/antonio.png",
+    image: "/yo.png",
   },
 };
 
