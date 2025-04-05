@@ -1,0 +1,48 @@
+---
+import Section from "./Section.astro";
+import { Image } from "astro:assets";
+import type { AboutProps, HeroProps } from "@types";
+
+type Props = AboutProps & Pick<HeroProps, "name">;
+
+const { description, image, name } = Astro.props;
+---
+
+<Section text="About Me" href="about">
+  <div class="flex gap-12 md:gap-8 flex-col items-center md:flex-row">
+    <div class="text-neutral w-auto text-base md:pr-5 space-y-4">
+      <p>Hi, I'm a Web Developer 💻 with a solid foundation in System Administration ⚙️. I have knowledge in technologies such as:</p>
+      
+      <ul class="list-disc pl-5">
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Node.js, PHP, Symfony, and Express.js</li>
+      </ul>
+
+      <p>Through hands-on experience with personal projects, I've developed expertise in:</p>
+
+      <ul class="list-disc pl-5">
+        <li>API integration 🔗</li>
+        <li>JWT authentication 🔐</li>
+        <li>Dynamic routing 🛣️</li>
+        <li>MySQL databases 🗃️</li>
+        <li>Responsive design with Bootstrap 📱</li>
+      </ul>
+
+      <p>My goal is to continue improving my skills and best practices, always striving to add value to the projects I work on. I'm fluent in English and open to relocation, both within Spain and internationally, to contribute to innovative teams 🌍.</p>
+
+      <p>Feel free to explore my work, and don't hesitate to reach out if you'd like to collaborate 🤝.</p>
+    </div>
+
+    <div
+      class="w-64 h-80 bg-white p-4 flex-shrink-0 rotate-[5deg] md:rotate-[7deg]"
+    >
+      <Image
+        class="object-cover"
+        src={image}
+        width="260"
+        height="260"
+        alt={name}
+      />
+    </div>
+  </div>
+</Section>
