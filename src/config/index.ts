@@ -4,7 +4,8 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Antonio García — Web Developer & System Administrator",
   author: "Antonio García",
   description:
-    "Developer specializing in web application development with expertise in JavaScript, Express.js, Java and PHP, backed by a strong foundation in system administration.",
+    "Software Developer skilled in JavaScript, Express.js, Java, Spring Boot and PHP, backed by a strong foundation in system administration open to learning new technologies and frameworks that help me grow as a developer and bring more value to the projects I work on.",
+   
   lang: "en",
   siteLogo: "/antonio.png",
   navLinks: [
@@ -37,8 +38,9 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Feb 2025",
       endDate: "May 2025",
       summary: [
-        "Internship in Web Application Development.",
-        "Working with WordPress and Elementor to design websites.",
+        "Mandatory Internship in Web Application Development.",
+        "Creation and management of web forms using PHP for user data collection, field validation and error handling.",
+        "Design and development of responsive websites using WordPress and Elementor, creating attractive and easy to use pages for clients...",
         "Responsible for fixing errors, implementing client-requested modifications, and ensuring smooth functionality of web pages.",
        
       ],
@@ -49,9 +51,10 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Oct 2023",
       endDate: "Mar 2024",
       summary: [
-        "Customer Support, handling ticket and call-based inquiries.",
+        "Customer support through ticket and call-based inquiries.",
         "Managed domain administration, DNS configurations, and SSL certificates.",
-        "I developed a script to verify the existence of records across a large list of domains",
+        "Developed and implemented a script to automate the verification of DNS records across a large list of domains, improving efficiency and accuracy.",
+        "Gained valuable experience in client communication, domain and DNS configurations.",
       ],
     },
     {
@@ -61,7 +64,8 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "Sept 2023",
       summary: [
         "Maintained A320 flight simulators, ALSIM AL200, and ALSIM AL250.",
-        "Assisted employees with IT-related tasks and ensured the proper functioning and repair of equipment.",
+        "Assisted employees with IT-related tasks and ensured the proper functioning, maintenance, and repair of equipment.",
+        "Developed a strong understanding of hardware troubleshooting, system configurations, and technical support in a high-tech environment.",
       ],
     },
     {
@@ -94,22 +98,15 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-    Hi, I'm a Web Developer 💻 with a solid foundation in System Administration ⚙️. I specialize in technologies such as:
+    Hi 👋
 
-    HTML5, CSS3, JavaScript
-    Node.js, PHP, Symfony, and Express.js
+I’m a Software Developer 💻 with a solid background in System Administration ⚙️. I enjoy building efficient, scalable, and secure web applications.
 
-    Through hands-on experience with personal projects, I've developed expertise in:
+I’m constantly learning and applying best practices to deliver clean and maintainable code.
 
-    API integration 🔗
-    JWT authentication 🔐
-    Dynamic routing 🛣️
-    MySQL databases 🗃️
-    Responsive design with Bootstrap 📱
+I’m open to learning new technologies and frameworks that help me grow as a developer and bring more value to the projects I work on.
 
-    My goal is to continue improving my skills and best practices, always striving to add value to the projects I work on. I'm fluent in English and open to relocation, both within Spain and internationally, to contribute to innovative teams 🌍.
-
-    Feel free to explore my work, and don't hesitate to reach out if you'd like to collaborate 🤝.
+I’m fluent in English and open to relocation — within Spain or internationally 🌍 — to contribute to innovative and collaborative teams.
   `,
     image: "/yo.png",
   },
