@@ -98,15 +98,17 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-    Hi 👋
+    👋 Hi, I'm Antonio García
+I'm a Junior Full Stack Developer and System Administrator with a strong technical foundation and hands-on experience in both web development and IT infrastructure.
 
-I’m a Software Developer 💻 with a solid background in System Administration ⚙️. I enjoy building efficient, scalable, and secure web applications.
+💻 I work with technologies like JavaScript, PHP, Express.js, Java, Spring Boot, and MySQL, and I'm familiar with tools like Docker, Git, Postman, and AWS.
+🔧 My background in system administration includes Linux servers, DNS management, and network troubleshooting, which gives me a holistic understanding of how web systems operate from the ground up.
+🌍 I completed an Erasmus+ internship in Germany, where I built interactive web interfaces to control lighting systems — combining front-end skills with real-world hardware interaction.
+🚀 I'm a fast learner, always curious, and eager to explore new technologies to improve my development workflow and bring greater value to the teams I work with.
 
-I’m constantly learning and applying best practices to deliver clean and maintainable code.
+I'm open to relocation within Europe and excited to join a team where I can grow, contribute, and collaborate on innovative projects.
 
-I’m open to learning new technologies and frameworks that help me grow as a developer and bring more value to the projects I work on.
-
-I’m fluent in English and open to relocation — within Spain or internationally 🌍 — to contribute to innovative and collaborative teams.
+👉 Feel free to explore my portfolio and reach out if you'd like to connect or work together!
   `,
     image: "/yo.png",
   },
