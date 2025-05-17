@@ -84,6 +84,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "Inventory Management",
       summary: "Inventory management system with secure API routes, JWT auth, and a responsive frontend built in vanilla JS.",
       linkSource: "https://github.com/agarbar439/gestion-inventario",
+      linkPreview: "https://inventarioapp.es",
       techStack: ["expressjs","node", "javascript"] ,
       image: "/gestion-inventario.png",
     },
