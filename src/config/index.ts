@@ -83,6 +83,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Inventory Management",
       summary: "Inventory management system with secure API routes, JWT auth, and a responsive frontend built in vanilla JS.",
+
       linkSource: "https://github.com/agarbar439/gestion-inventario",
       linkPreview: "https://inventarioapp.es",
       techStack: ["expressjs","node", "javascript"] ,
@@ -94,6 +95,13 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/agarbar439/employee-control-app",
       techStack: ["java", "spring-boot", "react"],
       image: "/employee.png",
+    },
+    {
+      name: "Weather API",
+      summary: "An app that fetches weather data for a city on a specific date or date range, using the VisualCrossing API and Redis for caching results to improve efficiency.",
+      linkSource: "https://github.com/agarbar439/weather",
+      techStack: ["node", "expressjs"],
+      image: "/weather.jpg",
     },
     
   ],
