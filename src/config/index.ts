@@ -26,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Antonio García",
     specialty: "Web Developer & System Administrator",
     summary:
-      "Software Developer specializing with expertise in JavaScript, Express.js, Java and PHP, backed by a strong foundation in system administration.",
+      "Software Developer with expertise in JavaScript, Express.js, Java, Spring Boot and PHP, backed by a strong foundation in system administration.",
       techStack: ["node","expressjs","java","php", "javascript"],
     email: "antoniogarci0309@gmail.com",
     
