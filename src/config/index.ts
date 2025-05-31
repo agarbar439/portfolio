@@ -98,7 +98,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Weather API",
-      summary: "An app that fetches weather data for a city on a specific date or date range, using the VisualCrossing API and Redis for caching results to improve efficiency.",
+      summary: "App that fetches weather data for a city on a specific date or date range, using the VisualCrossing API and Redis for caching results to improve efficiency.",
       linkSource: "https://github.com/agarbar439/weather",
       techStack: ["node", "expressjs"],
       image: "/weather.jpg",
