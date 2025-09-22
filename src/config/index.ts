@@ -26,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Antonio García",
     specialty: "Web Developer & System Administrator",
     summary:
-      "Software Developer with expertise in JavaScript, Express.js, Java, Spring Boot and PHP, backed by a strong foundation in system administration.",
+      "Software Developer | DevOps | Full Stack (Java, Spring Boot, Python, React, Node.js, Docker, AWS).",
       techStack: ["node","expressjs","java","php", "javascript"],
     email: "antoniogarci0309@gmail.com",
     
@@ -39,15 +39,26 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "May 2025",
       summary: [
         "Mandatory Internship in Web Application Development.",
-        "Creation and management of web forms using PHP for user data collection, field validation and error handling.",
+        "I developed more than 15 websites with WordPress, using Elementor and adding JavaScript functionalities for interactive features",
         "Design and development of responsive websites using WordPress and Elementor, creating attractive and easy to use pages for clients...",
-        "Responsible for fixing errors, implementing client-requested modifications, and ensuring smooth functionality of web pages.",
+        "Developed a PHP plugin for product synchronization between WooCommerce and an ERP, enabling automatic updates of products.",
        
+      ],
+    },
+     {
+      company: "Pulsia",
+      position: "Internship Web Developer",
+      startDate: "Mar 2024",
+      endDate: "May 2024",
+      summary: [
+        "Mandatory Internship in Web Application Development.",
+        "I used JavaScript for the implementation of functionalities in user interfaces, such as dynamic content update or manipulation of DOM elements.",
+        "I collaborated in the creation and improvement of HTML/CSS user interfaces.",       
       ],
     },
     {
       company: "Axarnet",
-      position: "Customer Client",
+      position: "IT Support Specialist",
       startDate: "Oct 2023",
       endDate: "Mar 2024",
       summary: [
@@ -108,16 +119,22 @@ export const SITE_CONTENT: SiteContent = {
   about: {
     description: `
     👋 Hi, I'm Antonio García
-I'm a Junior Full Stack Developer and System Administrator with a strong technical foundation and hands-on experience in both web development and IT infrastructure.
+💻 Junior Full Stack Developer and DevOps with experience in full-stack web development and application deployment.
 
-💻 I work with technologies like JavaScript, PHP, Express.js, Java, Spring Boot, and MySQL, and I'm familiar with tools like Docker, Git, Postman, and AWS.
-🔧 My background in system administration includes Linux servers, DNS management, and network troubleshooting, which gives me a holistic understanding of how web systems operate from the ground up.
-🌍 I completed an Erasmus+ internship in Germany, where I built interactive web interfaces to control lighting systems — combining front-end skills with real-world hardware interaction.
-🚀 I'm a fast learner, always curious, and eager to explore new technologies to improve my development workflow and bring greater value to the teams I work with.
+✅ Frontend: React, JavaScript, HTML5, CSS3.
+✅ Backend: Java, Spring Boot, Python, PHP, and Node.js.
+✅ Databases: MySQL, SQL Server and MongoDB.
+✅ DevOps/SysAdmin: Docker, Git, Bash, PowerShell, Linux, Windows Server, AWS, Apache, DNS,
+DHCP, FTP, SMTP, HTTP.
+✅ Extras: CI/CD Pipelines, Virtualization (VMware, VirtualBox), Network and Services Administration
 
-I'm open to relocation within Europe and excited to join a team where I can grow, contribute, and collaborate on innovative projects.
+🔹 During my internship, I developed more than 15 websites with WordPress, using Elementor and adding JavaScript functionalities for interactive features.
 
-👉 Feel free to explore my portfolio and reach out if you'd like to connect or work together!
+🔹 Among my personal projects, I developed a web app for inventory management with Node.js, Express.js, JavaScript, HTML, and CSS3, including product/category management, stock control, protected zones, chat, and user authentication. The application is deployed on AWS EC2 and features continuous integration (CI/CD) for automated deployments.
+
+🔹 I also have experience managing servers, including Windows Active Directory and Linux, web servers with Apache, and services like DNS, FTP, HTTP, SSH, and SMTP. This helps me deploy and maintain applications in real environments.
+
+🌍 Based in Málaga, B2 English level, available to relocate in Europe. I aim to continue growing as a web developer, delivering efficient solutions, and contributing to development teams.
   `,
     image: "/yo.png",
   },
